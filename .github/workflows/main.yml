@@ -28,6 +28,6 @@ jobs:
     # The remote host
     remote_host: 35.247.130.67/
     # The remote user
-    remote_user: notyouriiz
+    remote_user: lenovo
     # The remote key
-    remote_key: ${{ secrets.DEPLOY_KEY_SSH }}
+    remote_key: ${{ secrets.PRIVATE_SSH_KEY }}
